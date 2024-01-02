@@ -48,35 +48,40 @@ const Dropdown = () => {
             <button>
               {" "}
               <Link className="link-btn" to="/about-us/about-jntugv">
-                About Jntugv
+                About JNTUGV
               </Link>
             </button>
-            <button>
-              {" "}
-              <Link className="link-btn" to="/about-us/about-jobboard">
-                About jobboard
-              </Link>
-            </button>
+
             <button>
               {" "}
               <Link className="link-btn" to="/about-us/about-training">
-                About Training & placement
+                About Training & placement Cell
               </Link>
             </button>
 
             <button>
               {" "}
-              <Link className="link-btn" to="/about-us/about-mission">
-                Mission
+              <Link className="link-btn" to="/about-us/about-jobboard">
+                About Job Board
+              </Link>
+            </button>
+
+
+            <button>
+              {" "}
+              <Link className="link-btn" to="/about-us/about-director">
+                About Director
               </Link>
             </button>
 
             <button>
               {" "}
-              <Link className="link-btn" to="/about-us/about-vision">
-                Vision
+              <Link className="link-btn" to="/about-us/about-vision-mission">
+              Vision & Mission
               </Link>
             </button>
+
+            
           </div>
         </div>
         <div class="dropdown">

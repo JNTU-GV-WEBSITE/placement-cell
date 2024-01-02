@@ -6,7 +6,7 @@ function Jobboard() {
   return (
     <div className="ABOUTmainContainer">
       <div className="allRightContent">
-        <div className="allRightContentHeading">About JOBOBARD</div>
+        <div className="allRightContentHeading">Job Board</div>
 
         <div className="allRightContentProfile">
           {/* Profile information */}
@@ -14,21 +14,17 @@ function Jobboard() {
           <hr />
           {/* Profile description */}
           <Typography>
-            JNTU College of Engineering, Vizianagaram was established in the
-            year 2007 as a constituent College of JNTU Hyderabad.JNTU Hyderabad
-            was trifurcated into three Universities by the Andhra Pradesh Act
-            No. 30 of 2008 and since 24th August 2008, the College has become
-            the constituent college of JNTU Kakinada. Vide University Act No.22
-            of 2021, JNTU Kakinada is bifurcated and Jawaharlal Nehru
-            Technological University Gurajada, Vizianagaram come into existence
-            as a separate University vide G.O.Ms.No.3, dated: 12-01-2022.
-            <Typography>
-              The university is spread across six districts i.e
-              Vizianagaram,Visakhapatnam, Srikakulam, Parvathipuram Manyam,
-              Alluri Sitharama Raju and Anakapalli. There are 2 constituent
-              colleges and 37 affiliated colleges under its jurisdiction and
-              catering education in different Engineering, Pharmacy and
-              Management departments.
+          Jawaharlal Nehru Technological University Gurajada Vizianagaram is committed to provide all 
+          possible assistance to its top ranked students and also to meet the needs of organizations. 
+          It is headed by a Professor designated as Director, Industry Institute Interaction Placement & 
+          Training as in charge and assisted by various Constituent & Affiliated Placement Officers. 
+          It ensures the students to secure esteemed positions and also provide the best arrangements for 
+          the visiting national and multinational companies.
+            <Typography><br />
+            The IIIP&T coordinates various activities and provides career guidance, necessary skills to the 
+            students for development of integrated personality, to provide employable skills to all, to develop 
+            innovative entrepreneurs and dynamic leaders for the nation . We look forward to companies coming and 
+            interviewing our graduates and can assure that our graduates will be the best they are interviewing.
             </Typography>
           </Typography>
         </div>
