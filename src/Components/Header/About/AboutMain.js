@@ -7,7 +7,7 @@ const AboutMain = () => {
     <div className="ABOUT-Main">
       <div className="ABOUTallLeftMenu">
          
-         <Link
+      <Link
           to="/about-us/about-jntugv"
           className={`menuButton ${
             location.pathname === "/about-us/about-jntugv" ? "active" : ""
@@ -16,41 +16,38 @@ const AboutMain = () => {
           JNTU-GV
         </Link>
         <Link
+          to="/about-us/about-training"
+          className={`menuButton ${
+            location.pathname === "/about-us/about-training" ? "active" : ""
+          }`}
+        >
+          TRAINING & PLACEMENT CELL
+        </Link>
+        <Link
           to="/about-us/about-jobboard"
           className={`menuButton ${
             location.pathname === "/about-us/about-jobboard" ? "active" : ""
           }`}
         >
-          JOBBOARD
+          JOB BOARD
         </Link>
-       
-       
         <Link
-          to="/about-us/about-training"
+          to="/about-us/about-director"
           className={`menuButton ${
-            location.pathname ==="/about-us/about-training" ? "active" : ""
+            location.pathname === "/about-us/about-director" ? "active" : ""
           }`}
         >
-          TRAINING & PLACEMENT
+          DIRECTOR
+        </Link>
+        <Link
+          to="/about-us/about-vision-mission"
+          className={`menuButton ${
+            location.pathname === "/about-us/about-vision-mission" ? "active" : ""
+          }`}
+        >
+          VISION & MISSION
         </Link>
         
-        <Link
-          to="/about-us/about-mission" 
-          className={`menuButton ${
-            location.pathname === "/about-us/about-mission" ? "active" : ""
-          }`}
-        >
-          MISSION
-        </Link>
-
-        <Link
-          to= "/about-us/about-vision"
-          className={`menuButton ${
-            location.pathname === "/about-us/about-vision" ? "active" : ""
-          }`}
-        >
-        VISION
-        </Link>
       </div>
       <Outlet />
     </div>

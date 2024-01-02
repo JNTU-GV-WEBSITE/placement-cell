@@ -2,12 +2,13 @@ import "./App.css";
 import Header from "./Components/Header/Header";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Components/Home/Home";
+
 import AboutMain from "./Components/Header/About/AboutMain";
 import Jntugv from "./Components/Header/About/JNTUGV/Jntugv";
-import Jobboard from "./Components/Header/About/Jobboard/Jobboard";
 import Training from "./Components/Header/About/Training/Training";
-import Mission from "./Components/Header/About/Mission/Mission";
-import Vision from "./Components/Header/About/Vision/Vision";
+import Jobboard from "./Components/Header/About/Jobboard/Jobboard";
+import Director from "./Components/Header/About/Director/Director";
+import Visionmission from "./Components/Header/About/Visionmission/Visionmission";
 
 function App() {
   return (
@@ -19,15 +20,15 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutMain />}>
-          <Route path="about-mission" element={<Mission />} />
           <Route path="about-jntugv" element={<Jntugv />} />
-          <Route path="about-jobboard" element={<Jobboard />} />
           <Route path="about-training" element={<Training />} />
-          <Route path="about-vision" element={<Vision />} />
+          <Route path="about-jobboard" element={<Jobboard />} />
+          <Route path="about-director" element={<Director />} />
+          <Route path="about-vision-mission" element={<Visionmission />} />
         </Route>
       
       </Routes>
-      
+    
     </div>
   );
 }

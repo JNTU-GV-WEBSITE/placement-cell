@@ -6,7 +6,7 @@ function Training() {
   return (
     <div className="ABOUTmainContainer">
       <div className="allRightContent">
-        <div className="allRightContentHeading">About TRAING & PLACEMENT</div>
+        <div className="allRightContentHeading">Training & Placement Cell</div>
 
         <div className="allRightContentProfile">
           {/* Profile information */}
@@ -14,21 +14,25 @@ function Training() {
           <hr />
           {/* Profile description */}
           <Typography>
-            JNTU College of Engineering, Vizianagaram was established in the
-            year 2007 as a constituent College of JNTU Hyderabad.JNTU Hyderabad
-            was trifurcated into three Universities by the Andhra Pradesh Act
-            No. 30 of 2008 and since 24th August 2008, the College has become
-            the constituent college of JNTU Kakinada. Vide University Act No.22
-            of 2021, JNTU Kakinada is bifurcated and Jawaharlal Nehru
-            Technological University Gurajada, Vizianagaram come into existence
-            as a separate University vide G.O.Ms.No.3, dated: 12-01-2022.
-            <Typography>
-              The university is spread across six districts i.e
-              Vizianagaram,Visakhapatnam, Srikakulam, Parvathipuram Manyam,
-              Alluri Sitharama Raju and Anakapalli. There are 2 constituent
-              colleges and 37 affiliated colleges under its jurisdiction and
-              catering education in different Engineering, Pharmacy and
-              Management departments.
+            The Training and Placement Cell (T&P Cell) is an integral part of any 
+            educational institution, acting as a vital bridge between students and the 
+            professional world. This cell is dedicated to fostering strong connections with 
+            industries, organizing various training programs, and preparing students for 
+            successful careers. Through regular interactions with industry professionals, 
+            the T&P Cell gauges industry expectations and conducts workshops to enhance students' 
+            technical, soft, and communication skills. It plays a pivotal role in arranging internships, 
+            industrial visits, and placement drives, ensuring students gain practical exposure and 
+            secure suitable job opportunities. Additionally, the T&P Cell provides career guidance, 
+            assists with resume building, and maintains records of placements and alumni success stories, 
+            contributing to the institution's overall reputation and the holistic development of students.
+            <Typography><br />
+            The T&P Cell's commitment extends beyond placements; it strives to create a supportive 
+            environment for students by offering skill development programs, facilitating alumni connections,
+             and seeking valuable feedback from both recruiters and students. By actively engaging with industry 
+             partners, organizing campus recruitment events, and fostering strong alumni relations, the T&P Cell equips 
+             students with the necessary skills and knowledge to excel in their chosen fields. Overall, the Training and 
+             Placement Cell plays a pivotal role in shaping the professional journey of students, enhancing their 
+             employability, and establishing the institution as a hub for producing industry-ready graduates.
             </Typography>
           </Typography>
         </div>

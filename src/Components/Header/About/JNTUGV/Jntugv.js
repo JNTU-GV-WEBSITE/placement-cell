@@ -6,7 +6,7 @@ function Jntugv() {
   return (
     <div className="ABOUTmainContainer">
       <div className="allRightContent">
-        <div className="allRightContentHeading">About JNTUGV</div>
+        <div className="allRightContentHeading">JNTU-GV</div>
 
         <div className="allRightContentProfile">
           {/* Profile information */}
@@ -22,7 +22,7 @@ function Jntugv() {
             of 2021, JNTU Kakinada is bifurcated and Jawaharlal Nehru
             Technological University Gurajada, Vizianagaram come into existence
             as a separate University vide G.O.Ms.No.3, dated: 12-01-2022.
-            <Typography>
+            <Typography><br />
               The university is spread across six districts i.e
               Vizianagaram,Visakhapatnam, Srikakulam, Parvathipuram Manyam,
               Alluri Sitharama Raju and Anakapalli. There are 2 constituent
