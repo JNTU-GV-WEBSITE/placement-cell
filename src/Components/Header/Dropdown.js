@@ -114,8 +114,17 @@ const Dropdown = () => {
           <div
             class="dropdown-content"
             onClick={() => setMenuState(!menuState)}
-          ></div>
+          >
+              <button>
+              {" "}
+              <Link className="link-btn" to="/our-recruiters">
+               OUR RECRUITERS
+              </Link>
+            </button>
+             
+          </div>
         </div>
+
         <div class="dropdown">
           <div class="dropbtn">
             <DescriptionIcon /> STUDENTS PLACED

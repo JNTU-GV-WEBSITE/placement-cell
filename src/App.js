@@ -9,6 +9,7 @@ import Training from "./Components/Header/About/Training/Training";
 import Jobboard from "./Components/Header/About/Jobboard/Jobboard";
 import Director from "./Components/Header/About/Director/Director";
 import Visionmission from "./Components/Header/About/Visionmission/Visionmission";
+import Recruiters from "./Components/Header/Recruiters/Recruiters";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
           <Route path="about-director" element={<Director />} />
           <Route path="about-vision-mission" element={<Visionmission />} />
         </Route>
-      
+        <Route path="/our-recruiters" element={<Recruiters />} />
+
       </Routes>
     
     </div>
