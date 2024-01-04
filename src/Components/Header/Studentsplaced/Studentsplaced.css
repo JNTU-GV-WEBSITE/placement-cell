@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+    width: 80%; /* Adjust the width based on your requirement */
+    margin: 0 auto;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increase padding for better spacing */
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0e4e4;
+  }
+  
+  .SP {
+    color: #2e0669;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
