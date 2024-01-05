@@ -17,6 +17,7 @@ import Twentyone from "./Components/Header/Studentsplaced/Twentyone/Twentyone";
 import Twenty from "./Components/Header/Studentsplaced/Twenty/Twenty";
 import Nineteen from "./Components/Header/Studentsplaced/Nineteen/Nineteen";
 import Eighteen from "./Components/Header/Studentsplaced/Eighteen/Eighteen";
+import Notifications from "./Components/Header/Notifications/Notifications";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="about-vision-mission" element={<Visionmission />} />
         </Route>
 
+        <Route path="/notifications" element={<Notifications />} /> 
         <Route path="/our-recruiters" element={<Recruiters />} />
         <Route path="/training-placement-cell" element={<PC />} />
 

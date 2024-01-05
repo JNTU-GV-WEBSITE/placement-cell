@@ -95,8 +95,8 @@ const Dropdown = () => {
 
         <div class="dropdown">
           <div className="dropbtn">
-          <Link to="/placement-cell-notifications" className="drop-icon" onClick={() => setMenuState(!menuState)}>
-          <SchoolIcon />PLACEMENT CELL NOTIFICATIONS
+          <Link to="/notifications" className="drop-icon" onClick={() => setMenuState(!menuState)}>
+          <SchoolIcon />NOTIFICATIONS
         </Link>
           </div>
         </div>
