@@ -22,13 +22,6 @@ function Footer() {
   return (
     <div className="mainFooter">
       <div className="subcontainer1Footer">
-        {/* <div>
-          <p className="subFooter subheadingFooter">Admission</p>
-        </div>
-        <div className="subcontentFooter">
-          <p className="headlinksFooter">DIRECTORATE OF ADMISSIONS </p>
-          <p>INTERNATIONAL AFFAIRS </p>
-        </div> */}
       </div>
       <div className="subcontainer2Footer">
         {/* Administration_Wing */}
