@@ -6,7 +6,16 @@ const Studentsplacedmain = () => {
   return (
     <div className="ABOUT-Main">
       <div className="ABOUTallLeftMenu">
-         
+
+      <Link
+          to="/students-placed/twenty-four"
+          className={`menuButton ${
+            location.pathname === "/students-placed/twenty-four" ? "active" : ""
+          }`}
+        >
+          2023-2024
+        </Link> 
+
       <Link
           to="/students-placed/twenty-two"
           className={`menuButton ${
