@@ -16,7 +16,7 @@ function Home() {
           "The vision of Training and Placement cell is to train and develop technically 
           competent professionals to serve as valuable resource for industry and society."
           </p>
-          <p className="signature">Dr.T.S.N.Murthy<br />Placement Cell Coordinator</p>
+          <p className="signature">Dr.T.S.N.Murthy<br />Placement Cell Co-ordinator</p>
         </div>
       </div>
       <Footer />

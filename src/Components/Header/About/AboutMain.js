@@ -40,7 +40,7 @@ const AboutMain = () => {
             location.pathname === "/about-us/about-director" ? "active" : ""
           }`}
         >
-          DIRECTOR
+          CO-ORDINATOR
         </Link>
 
         <Link

@@ -8,7 +8,7 @@ function Director() {
   return (
     <div className="mainContainer">
       <div className="allRightContent">
-        <div className="allRightContentHeading">Director of Placement Cell</div>
+        <div className="allRightContentHeading">Co-ordinator of Placement Cell</div>
         <br></br>
         <div className="allRightContentProfile">
           {/* Profile information */}
@@ -23,7 +23,7 @@ function Director() {
         <center>
           <div className="profileName">
             <h3 className="ADh3">Dr.T.S.N.Murthy</h3>
-            <h4 className="ADh4">Director of Placements Cell</h4>
+            <h4 className="ADh4">Co-ordinator of Placements Cell</h4>
           </div>
           <div className="profileDesignation">
             <h4 className="ADh4">
@@ -44,7 +44,7 @@ function Director() {
         
         
         <p className="ADsub">Educational Qualifications</p>
-        <h5>Ph.D.(September 2016)</h5>
+        <h6>Ph.D.(September 2016)</h6>
         <p>
             ❖ Department of Electronics & Communication Engineering, Osmania University, Hyderabad, Andhra Pradesh, India.
           </p>
@@ -52,11 +52,11 @@ function Director() {
             ❖ Supervisor : Prof. K Deergha Rao.
           </p>
           <p>❖ Area of Study : Communication and Signal Processing.</p>
-          <h5>M.Tech.(Communication Engineering 2005)</h5>
+          <h6>M.Tech.(Communication Engineering 2005)</h6>
           <p>
             ❖ Acharaya Nagarjuna University (V R Siddhartha Engineering College, Vijayawada), Andhra Pradesh, India.
           </p>
-          <h5>B.Tech.(Electronics & Communication Engineering 2002)</h5>
+          <h6>B.Tech.(Electronics & Communication Engineering 2002)</h6>
           <p>
             ❖ Acharaya Nagarjuna University (S V H College of Engineering, Machilipatnam), Andhra Pradesh, India.
           </p>
@@ -117,7 +117,7 @@ function Director() {
                <p>❖ No. of PG Thesis Guided : 9</p>
 
                <p className="ADsub">Details of Courses Taught</p>
-               <h5>UG courses taught</h5>
+               <h6>UG courses taught</h6>
                <p>❖ Electronic devices and circuits</p>
                <p>❖ Network theory</p>
                <p>❖ Signals and systems</p>
@@ -129,7 +129,7 @@ function Director() {
                <p>❖ Antenna and wave propagation</p>
                <p>❖ Cellular and mobile communications</p>
                <p>❖ Information theory and coding techniques</p>
-               <h5>PG courses taught</h5>
+               <h6>PG courses taught</h6>
                <p>❖ Coding theory and applications</p>
                <p>❖ Detection and estimation theory</p>
                <p>❖ Adaptive signal processing</p>
