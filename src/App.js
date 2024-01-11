@@ -18,6 +18,7 @@ import Twenty from "./Components/Header/Studentsplaced/Twenty/Twenty";
 import Nineteen from "./Components/Header/Studentsplaced/Nineteen/Nineteen";
 import Eighteen from "./Components/Header/Studentsplaced/Eighteen/Eighteen";
 import Notifications from "./Components/Header/Notifications/Notifications";
+import Twentyfour from "./Components/Header/Studentsplaced/Twentyfour/Twentyfour";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route path="/training-placement-cell" element={<PC />} />
 
         <Route path="/students-placed" element={<Studentsplacedmain />}>
+          <Route path="twenty-four" element={<Twentyfour />} />
           <Route path="twenty-two" element={<Twentytwo />} />
           <Route path="twenty-one" element={<Twentyone />} />
           <Route path="twenty" element={<Twenty />} />
