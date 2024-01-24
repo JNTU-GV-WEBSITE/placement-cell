@@ -61,6 +61,25 @@ const Studentsplacedmain = () => {
           2017-2018
         </Link>
         
+        <Link
+          to="/students-placed/seventeen"
+          className={`menuButton ${
+            location.pathname === "/students-placed/seventeen" ? "active" : ""
+          }`}
+        >
+          2016-2017
+        </Link>
+
+        <Link
+          to="/students-placed/sixteen"
+          className={`menuButton ${
+            location.pathname === "/students-placed/sixteen" ? "active" : ""
+          }`}
+        >
+          2015-2016
+        </Link>
+
+
       </div>
       <Outlet />
     </div>

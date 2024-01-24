@@ -19,6 +19,8 @@ import Nineteen from "./Components/Header/Studentsplaced/Nineteen/Nineteen";
 import Eighteen from "./Components/Header/Studentsplaced/Eighteen/Eighteen";
 import Notifications from "./Components/Header/Notifications/Notifications";
 import Twentyfour from "./Components/Header/Studentsplaced/Twentyfour/Twentyfour";
+import Seventeen from "./Components/Header/Studentsplaced/Seventeen/Seventeen";
+import Sixteen from "./Components/Header/Studentsplaced/Sixteen/Sixteen";
 
 function App() {
   return (
@@ -49,6 +51,8 @@ function App() {
           <Route path="twenty" element={<Twenty />} />
           <Route path="nineteen" element={<Nineteen />} />
           <Route path="eighteen" element={<Eighteen />} />
+          <Route path="seventeen" element={<Seventeen />} />
+          <Route path="sixteen" element={<Sixteen />} />
         </Route>
         <Route path="footer" element={<Footer />} />
       </Routes>
