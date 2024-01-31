@@ -9,6 +9,7 @@ import PersonIcon from "@mui/icons-material/Person";
 import ApartmentIcon from "@mui/icons-material/Apartment";
 import DescriptionIcon from "@mui/icons-material/Description";
 import MenuIcon from "@mui/icons-material/Menu";
+import CollectionsIcon from '@mui/icons-material/Collections';
 import { useState } from "react";
 
 const Dropdown = () => {
@@ -51,7 +52,7 @@ const Dropdown = () => {
             <button>
               {" "}
               <Link className="link-btn" to="/about-us/about-jntugv">
-                About JNTUGV
+                 JNTUGV
               </Link>
             </button>
 
@@ -65,14 +66,21 @@ const Dropdown = () => {
             <button>
               {" "}
               <Link className="link-btn" to="/about-us/about-jobboard">
-                About Job Board
+                Job Board
+              </Link>
+            </button>
+
+            <button>
+              {" "}
+              <Link className="link-btn" to="/about-us/about-iiit-placements">
+                IIIT & Placements
               </Link>
             </button>
 
            <button>
               {" "}
               <Link className="link-btn" to="/about-us/about-director">
-                About Co-ordinator
+                 Co-ordinator
               </Link>
             </button>
 
@@ -96,7 +104,7 @@ const Dropdown = () => {
         <div class="dropdown">
           <div className="dropbtn">
           <Link to="/notifications" className="drop-icon" onClick={() => setMenuState(!menuState)}>
-          <SchoolIcon />NOTIFICATIONS
+          <SchoolIcon /> NOTIFICATIONS
         </Link>
           </div>
         </div>
@@ -105,6 +113,14 @@ const Dropdown = () => {
           <div className="dropbtn">
           <Link to="/our-recruiters" className="drop-icon" onClick={() => setMenuState(!menuState)}>
           <PersonIcon /> OUR RECRUITERS
+        </Link>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <div className="dropbtn">
+          <Link to="/our-image-gallery" className="drop-icon" onClick={() => setMenuState(!menuState)}>
+          <CollectionsIcon /> GALLERY
         </Link>
           </div>
         </div>
@@ -124,6 +140,13 @@ const Dropdown = () => {
                 2023-2024
               </Link>
             </button>
+
+            <button>
+              {" "}
+              <Link className="link-btn" to="/students-placed/twenty-three">
+                2022-2023
+              </Link>
+            </button> 
 
             <button>
               {" "}
@@ -159,6 +182,22 @@ const Dropdown = () => {
               2017-2018
               </Link>
             </button>
+
+            <button>
+              {" "}
+              <Link className="link-btn" to="/students-placed/seventeen">
+              2016-2017
+              </Link>
+            </button>
+
+            <button>
+              {" "}
+              <Link className="link-btn" to="/students-placed/sixteen">
+              2015-2016
+              </Link>
+            </button>
+
+
             </div>
         </div>
         

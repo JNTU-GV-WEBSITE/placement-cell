@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../Studentsplaced.css';
+import './Twentyfour.css';
 const Twentyfour = () => {
   return (
     <div>
