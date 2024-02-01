@@ -11,7 +11,7 @@ function Jobboard() {
         <div className="allRightContentProfile">
           {/* Profile information */}
           <center></center>
-          <hr />
+          <br />
           {/* Profile description */}
           <Typography>
           Jawaharlal Nehru Technological University Gurajada Vizianagaram is committed to provide all 

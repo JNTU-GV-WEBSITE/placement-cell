@@ -16,6 +16,15 @@ const Studentsplacedmain = () => {
           2023-2024
         </Link> 
 
+        <Link
+          to="/students-placed/twenty-three"
+          className={`menuButton ${
+            location.pathname === "/students-placed/twenty-three" ? "active" : ""
+          }`}
+        >
+          2022-2023
+        </Link> 
+
       <Link
           to="/students-placed/twenty-two"
           className={`menuButton ${
@@ -60,7 +69,7 @@ const Studentsplacedmain = () => {
         >
           2017-2018
         </Link>
-        
+
         <Link
           to="/students-placed/seventeen"
           className={`menuButton ${
@@ -78,8 +87,7 @@ const Studentsplacedmain = () => {
         >
           2015-2016
         </Link>
-
-
+        
       </div>
       <Outlet />
     </div>
