@@ -233,10 +233,6 @@ const Dropdown = () => {
           </div>
         </div>
 
-
-
-        
-        
       </div>
     </nav>
   );

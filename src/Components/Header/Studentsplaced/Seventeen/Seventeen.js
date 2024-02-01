@@ -15,6 +15,9 @@ const Seventeen = () => {
           
             <th>Total Selections</th>
 
+            <th>Total Selects</th>
+
+
           </tr>
         </thead>
         <tbody>
@@ -386,4 +389,5 @@ const Seventeen = () => {
   );
 };
 
+export default Seventeen;
 export default Seventeen;
