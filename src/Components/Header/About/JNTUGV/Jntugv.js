@@ -11,7 +11,7 @@ function Jntugv() {
         <div className="allRightContentProfile">
           {/* Profile information */}
           <center></center>
-          <hr />
+          <br />
           {/* Profile description */}
           <Typography>
             JNTU College of Engineering, Vizianagaram was established in the

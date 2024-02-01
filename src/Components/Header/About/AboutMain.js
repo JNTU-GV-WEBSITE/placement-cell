@@ -16,15 +16,6 @@ const AboutMain = () => {
           JNTU-GV
         </Link>
 
-        {/* <Link
-          to="/about-us/about-training"
-          className={`menuButton ${
-            location.pathname === "/about-us/about-training" ? "active" : ""
-          }`}
-        >
-          TRAINING & PLACEMENT CELL
-        </Link>  */}
-
         <Link
           to="/about-us/about-jobboard"
           className={`menuButton ${
@@ -32,6 +23,15 @@ const AboutMain = () => {
           }`}
         >
           JOB BOARD
+        </Link>
+
+        <Link
+          to="/about-us/about-iiit-placements"
+          className={`menuButton ${
+            location.pathname === "/about-us/about-iiit-placements" ? "active" : ""
+          }`}
+        >
+          IIIT & PLACEMENTS
         </Link>
 
         <Link
