@@ -10,18 +10,18 @@ function Visionmission() {
         <div className="allRightContentProfile">
           {/* Vision description */}
           <center></center>
-          <hr />
+          <br />
           {/* Vision content */}
           <Typography>
             The vision of the Training and Placement cell is to train and develop technically competent professionals to serve as a valuable resource for the industry and society.
           </Typography>
         </div>
-        <hr/>
+        <br/>
         <div className="allRightContentHeading">Mission</div>
         <div className="allRightContentProfile">
           {/* Mission description */}
           <center></center>
-          <hr />
+          <br />
           {/* Mission content */}
           <Typography>
             ❖ To build domain knowledge-based human resources by imparting contemporary technical skills and social ethics to initiate excellent industry-institute collaboration for the well-being of society.<br />

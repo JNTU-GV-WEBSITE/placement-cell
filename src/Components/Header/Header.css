@@ -33,6 +33,11 @@
     font-size: small;
     
   }
+
+  .heading{
+color: orange;
+  }
+
   @media (max-width: 767px) {
     .container {
       display: flex;
