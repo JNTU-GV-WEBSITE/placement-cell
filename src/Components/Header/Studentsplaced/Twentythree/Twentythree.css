@@ -1,0 +1,21 @@
+.twentythree {
+  border-collapse: collapse;
+  width: 80%; /* Adjust the width based on your requirement */
+  margin: 0 auto;
+}
+
+.twentythree th, .twentythree td {
+  border: 1px solid #ddd;
+  padding: 12px; /* Increase padding for better spacing */
+  text-align: left;
+}
+
+.twentythree th {
+  background-color: #daefef;
+}
+
+.SP {
+  color: #2e0669;
+  text-align: center;
+  margin-bottom: 20px;
+}

@@ -1,11 +1,16 @@
 .pcMessageContainer {
-    background-color: #f0f0f0;
+    background-color: #DCDCDC;
     padding: 20px;
     margin: 20px 0;
   }
   
   .pcMessage {
     text-align: center;
+    font-weight: bold;
+  }
+
+  .pcmsg{
+    color: orange;
   }
 
   .signature {

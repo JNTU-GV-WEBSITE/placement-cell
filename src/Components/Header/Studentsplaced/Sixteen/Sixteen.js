@@ -1,4 +1,3 @@
-
 import React from 'react';
 import '../Studentsplaced.css';
 const Sixteen = () => {
@@ -15,6 +14,7 @@ const Sixteen = () => {
             <th colSpan={2}>M.Tech</th>
             <th>On/Off campus</th>
           
+            <th>Total Selections</th>
             <th>Total Selects</th>
 
           </tr>
@@ -214,4 +214,5 @@ const Sixteen = () => {
   );
 };
 
+export default Sixteen;
 export default Sixteen;

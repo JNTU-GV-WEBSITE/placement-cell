@@ -1,0 +1,21 @@
+.my-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.my-table th, .my-table td {
+  border: 1px solid #ddd;
+  padding: 5px; /* Decreased padding for narrower columns */
+  text-align: left;
+}
+
+.my-table th {
+  background-color: #daefef;
+}
+
+.SP {
+  color: #2e0669;
+  text-align: center;
+  margin-bottom: 20px;
+}

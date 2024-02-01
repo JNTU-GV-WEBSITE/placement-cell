@@ -1,4 +1,3 @@
-
 import React from 'react';
 import '../Studentsplaced.css';
 const Seventeen = () => {
@@ -14,7 +13,10 @@ const Seventeen = () => {
             <th colSpan={7}>B.Tech</th>
             <th colSpan={1}>M.Tech</th>
           
+            <th>Total Selections</th>
+
             <th>Total Selects</th>
+
 
           </tr>
         </thead>
@@ -387,4 +389,5 @@ const Seventeen = () => {
   );
 };
 
+export default Seventeen;
 export default Seventeen;
