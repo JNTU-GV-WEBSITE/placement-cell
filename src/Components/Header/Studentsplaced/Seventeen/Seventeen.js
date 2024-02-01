@@ -14,6 +14,7 @@ const Seventeen = () => {
             <th colSpan={1}>M.Tech</th>
           
             <th>Total Selections</th>
+            <th>Total Selects</th>
 
           </tr>
         </thead>

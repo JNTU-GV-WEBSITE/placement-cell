@@ -15,7 +15,6 @@ import Recruiters from "./Components/Header/Recruiters/Recruiters";
 import PC from "./Components/Header/PC/PC";
 import Studentsplacedmain from "./Components/Header/Studentsplaced/Studentsplacedmain";
 import Twentyfour from "./Components/Header/Studentsplaced/Twentyfour/Twentyfour";
-
 import Twentytwo from "./Components/Header/Studentsplaced/Twentytwo/Twentytwo";
 import Twentyone from "./Components/Header/Studentsplaced/Twentyone/Twentyone";
 import Twenty from "./Components/Header/Studentsplaced/Twenty/Twenty";
@@ -29,7 +28,9 @@ import Contactus from "./Components/Header/Contactus/Contactus";
 import About from "./Components/Header/PC/About/About";
 import Activities from "./Components/Header/PC/Activities/Activities";
 import Services from "./Components/Header/PC/Services/Services";
-
+import Twentyfour from "./Components/Header/Studentsplaced/Twentyfour/Twentyfour";
+import Seventeen from "./Components/Header/Studentsplaced/Seventeen/Seventeen";
+import Sixteen from "./Components/Header/Studentsplaced/Sixteen/Sixteen";
 
 function App() {
   return (

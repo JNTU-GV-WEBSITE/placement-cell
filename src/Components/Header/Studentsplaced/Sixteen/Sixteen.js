@@ -15,6 +15,7 @@ const Sixteen = () => {
             <th>On/Off campus</th>
           
             <th>Total Selections</th>
+            <th>Total Selects</th>
 
           </tr>
         </thead>
