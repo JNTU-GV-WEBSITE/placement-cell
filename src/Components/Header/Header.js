@@ -13,7 +13,7 @@ const Header = () => {
             <br />
             VIZIANAGARAM-535 003, A.P <br /><b />
             <h6>(Established by Andhra Pradesh Act No.22 of 2021)</h6>
-            
+            <h3 className="heading">PLACEMENT CELL</h3>
           </h1>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 import "../../App.css";
 import Gallery from "../Gallery/Gallery";
 import "./Home.css";
-import Footer from "../Footer/Footer";
+// import Footer from "../Footer/Footer";
 function Home() {
   return (
     <div>
@@ -19,7 +19,7 @@ function Home() {
           <p className="signature">Dr.T.S.N.Murthy<br />Placement Cell Co-ordinator</p>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
       
     </div>
   );

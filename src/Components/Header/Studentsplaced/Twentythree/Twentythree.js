@@ -4,7 +4,7 @@ const Twentythree = () => {
   return (
     <div>
      <h3 className='SP'>Students Placed [2022-2023]</h3>
-      <table border="1">
+      <table border="1" className='twentythree'>
         <thead>
           <tr>
             <th rowSpan={2}>S.No</th>

@@ -25,6 +25,10 @@ import Seventeen from "./Components/Header/Studentsplaced/Seventeen/Seventeen";
 import Sixteen from "./Components/Header/Studentsplaced/Sixteen/Sixteen";
 import Notifications from "./Components/Header/Notifications/Notifications";
 import Twentythree from "./Components/Header/Studentsplaced/Twentythree/Twentythree";
+import Contactus from "./Components/Header/Contactus/Contactus";
+import About from "./Components/Header/PC/About/About";
+import Activities from "./Components/Header/PC/Activities/Activities";
+import Services from "./Components/Header/PC/Services/Services";
 
 
 function App() {
@@ -39,17 +43,24 @@ function App() {
 
         <Route path="/about-us" element={<AboutMain />}>
           <Route path="about-jntugv" element={<Jntugv />} />
-          {/* <Route path="about-training" element={<Training />} /> */}
           <Route path="about-jobboard" element={<Jobboard />} />
           <Route path="about-iiit-placements" element={<IIIT />} />
           <Route path="about-director" element={<Director />} />
           <Route path="about-vision-mission" element={<Visionmission />} />
         </Route>
 
+
+        <Route path="/pc" element={<PC />}>
+          <Route path="about-placement" element={<About />} />
+          <Route path="about-activities" element={<Activities />} />
+          <Route path="about-services" element={<Services />} />
+        </Route>
+
         <Route path="/notifications" element={<Notifications />} /> 
         <Route path="/our-recruiters" element={<Recruiters />} />
         <Route path="/our-image-gallery" element={<ImageGallery />} />
-        <Route path="/training-placement-cell" element={<PC />} />
+        {/* <Route path="/training-placement-cell" element={<PC />} /> */}
+        <Route path="/about-contact-us" element={<Contactus />} />
 
         <Route path="/students-placed" element={<Studentsplacedmain />}>
           <Route path="twenty-four" element={<Twentyfour />} />
