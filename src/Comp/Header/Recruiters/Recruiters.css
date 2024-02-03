@@ -1,0 +1,28 @@
+.logo-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 40px; 
+    margin: 25px; 
+  }
+  
+  .logo-card {
+    width: 200px; 
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px; 
+    padding: 16px; 
+    text-align: center;
+  
+  }
+  
+  .logo-card:hover {
+    transform: scale(1.05); 
+  }
+  
+  
+  
+  
+  
+  
+  

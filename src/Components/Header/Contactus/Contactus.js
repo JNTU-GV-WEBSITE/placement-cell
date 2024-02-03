@@ -20,7 +20,7 @@ function Contactus() {
             <strong>Training and placement cell co-ordinator:</strong> Dr.T.S.N.Murthy
           </Typography>
           <Typography variant="h6">
-            <strong>Contact Number:</strong> 7673955559
+            <strong>Contact Number:</strong> 76739 55559
           </Typography>
           <Typography variant="h6">
             <strong>Email:</strong> tpo@jntugvcev.edu.in
@@ -29,7 +29,7 @@ function Contactus() {
             <strong>Supporting Staff:</strong> Mr.Mahesh
           </Typography>
           <Typography variant="h6">
-            <strong>Contact Number:</strong> 9963585117
+            <strong>Contact Number:</strong> 99635 85117
           </Typography>
         </Paper>
         <Paper elevation={4} className="map-container">
@@ -47,34 +47,17 @@ function Contactus() {
         <h2 className="cd">Additional Contact Details:</h2>
 
         <div className="contact-cards">
-          {/* Member 1 */}
-          <Paper elevation={4} className="paper-details">
-            <Typography variant="h6">
-              <strong>Vice Chancellor Peshi</strong>{" "}
-            </Typography>
-            <Typography variant="p">
-              Contact Number: +91 89222 22606{" "}
-            </Typography>
-            <Typography variant="p">Email: vc@jntugv.edu.in</Typography>
-          </Paper>
+          
 
-          {/* Member 2 */}
-          <Paper elevation={4} className="paper-details">
-            <Typography variant="h6">
-              <strong>Registrar Peshi</strong>{" "}
-            </Typography>
-            <Typography variant="p">Contact Number: +91 89222 94316</Typography>
-            <Typography variant="p">Email: registrarpeshi@jntugv.edu.in</Typography>
-            <Typography variant="p">Email: pa2registrarjntugv@gmail.com</Typography>
-          </Paper>
+         
 
           {/* Member 3 */}
           <Paper elevation={4} className="paper-details">
             <Typography variant="h6">
-              <strong>Controller of Examination Office</strong>{" "}
+              <strong>Principal Office</strong>{" "}
             </Typography>
-            <Typography variant="p">Contact Number: +91 89222 94997</Typography>
-            <Typography variant="p">Email: ce@jntugv.edu.in</Typography>
+            <Typography variant="p">Contact Number:  </Typography>
+            <Typography variant="p">Email: </Typography>
           </Paper>
         </div>
       </div>

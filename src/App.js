@@ -28,6 +28,7 @@ import Contactus from "./Components/Header/Contactus/Contactus";
 import About from "./Components/Header/PC/About/About";
 import Activities from "./Components/Header/PC/Activities/Activities";
 import Services from "./Components/Header/PC/Services/Services";
+import Staff from "./Components/Header/About/Staff/Staff";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route path="about-jobboard" element={<Jobboard />} />
           <Route path="about-iiit-placements" element={<IIIT />} />
           <Route path="about-director" element={<Director />} />
+          <Route path="about-supporting-staff" element={<Staff />} />
           <Route path="about-vision-mission" element={<Visionmission />} />
         </Route>
 
