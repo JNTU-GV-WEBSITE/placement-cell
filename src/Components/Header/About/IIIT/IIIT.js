@@ -1,8 +1,6 @@
 import React from "react";
 import "../About.css";
-import directorImage from "./registrar.jpeg"
-
-
+import directorImage from "./registrar.jpeg";
 
 function IIIT() {
   return (

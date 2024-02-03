@@ -1,16 +1,38 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../Studentsplaced.css';
 
 // Import data directly
 import studentsPlacedData from './TwentyoneData'; // Adjust the path based on your project structure
 
 const Twentyone = () => {
-  // Use the imported data directly
-  const studentsPlaced = studentsPlacedData ;
+  const itemsPerPage = 20;
 
-  // Render table rows
+  const [searchQuery, setSearchQuery] = useState('');
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const filteredData = studentsPlacedData.filter((member) =>
+    member.name.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const totalItems = filteredData.length;
+  const totalPages = Math.ceil(totalItems / itemsPerPage);
+
+  const displayStart = (currentPage - 1) * itemsPerPage;
+  const displayEnd = currentPage * itemsPerPage;
+
+  const displayedData = filteredData.slice(displayStart, displayEnd);
+
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value);
+    setCurrentPage(1); // Reset to the first page when the search query changes
+  };
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
+
   const renderTableRows = () => {
-    return studentsPlaced.map((member) => (
+    return displayedData.map((member) => (
       <tr key={member.sno}>
         <td>{member.sno}</td>
         <td>{member.name}</td>
@@ -23,9 +45,51 @@ const Twentyone = () => {
     ));
   };
 
+  const renderPaginationButtons = () => {
+    const buttons = [];
+
+    // Previous button
+    if (currentPage > 1) {
+      buttons.push(
+        <button key="prev" onClick={() => handlePageChange(currentPage - 1)}>
+          {"<"}
+        </button>
+      );
+    }
+
+    // Page buttons
+    for (let i = 1; i <= totalPages; i++) {
+      buttons.push(
+        <button key={i} onClick={() => handlePageChange(i)} disabled={i === currentPage}>
+          {i}
+        </button>
+      );
+    }
+
+    // Next button
+    if (currentPage < totalPages) {
+      buttons.push(
+        <button key="next" onClick={() => handlePageChange(currentPage + 1)}>
+          {">"}
+        </button>
+      );
+    }
+
+    return buttons;
+  };
+
   return (
     <div>
       <h3 className='SP'>Students Placed [2020-2021]</h3>
+      <div className="search-container">
+        <label htmlFor="search">Search : </label>
+        <input
+          type="text"
+          id="search"
+          value={searchQuery}
+          onChange={handleSearchChange}
+        />
+      </div><br />
       <table>
         <thead>
           <tr>
@@ -39,7 +103,10 @@ const Twentyone = () => {
           </tr>
         </thead>
         <tbody>{renderTableRows()}</tbody>
-      </table>
+      </table><br />
+      <div className="pagination-container">
+        {renderPaginationButtons()}
+      </div>
     </div>
   );
 };

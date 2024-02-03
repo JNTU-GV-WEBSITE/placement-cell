@@ -1,27 +1,31 @@
 .image {
-    height: 450px;
-    width: 80vw;
+  height: 400px;
+  width: 60vw;
+}
+
+.mainImageGallery {
+  background-color: transparent;
+  width: 60vw;
+}
+
+.mianDivIG {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carouselText {
+  background-color: #690001;
+  width: max-content;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 767px) {
+
+  .image{
+    height: 200px;
   }
-  .mainImageGallery {
-    background-color: transparent;
-  }
-  
-  .mianDivIG {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .carouselText {
-    background-color: #690001;
-    width: max-content;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  @media (max-width: 767px) {
-  
-    .image{
-      height: 200px;
-    }
-  }
-  
+}

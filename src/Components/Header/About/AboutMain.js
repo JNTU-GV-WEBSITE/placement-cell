@@ -44,6 +44,15 @@ const AboutMain = () => {
         </Link>
 
         <Link
+          to="/about-us/about-supporting-staff"
+          className={`menuButton ${
+            location.pathname === "/about-us/about-supporting-staff" ? "active" : ""
+          }`}
+        >
+          SUPPORTING STAFF
+        </Link>
+
+        <Link
           to="/about-us/about-vision-mission"
           className={`menuButton ${
             location.pathname === "/about-us/about-vision-mission" ? "active" : ""

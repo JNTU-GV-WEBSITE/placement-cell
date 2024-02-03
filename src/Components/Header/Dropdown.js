@@ -83,6 +83,13 @@ const Dropdown = () => {
 
             <button>
               {" "}
+              <Link className="link-btn" to="/about-us/about-supporting-staff">
+                 Supporting Staff
+              </Link>
+            </button>
+
+            <button>
+              {" "}
               <Link className="link-btn" to="/about-us/about-vision-mission">
               Vision & Mission
               </Link>

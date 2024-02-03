@@ -2,8 +2,6 @@ import React from "react";
 import "../About.css";
 import directorImage from "./director1.jpg";
 
-
-
 function Director() {
   return (
     <div className="mainContainer">
