@@ -56,8 +56,8 @@ function Contactus() {
             <Typography variant="h6">
               <strong>Principal Office</strong>{" "}
             </Typography>
-            <Typography variant="p">Contact Number:  </Typography>
-            <Typography variant="p">Email: </Typography>
+            <Typography variant="p">Contact Number: +91 89222 94997</Typography>
+            <Typography variant="p">Email: ece@jntugv.edu.in</Typography>
           </Paper>
         </div>
       </div>
