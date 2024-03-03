@@ -7,6 +7,7 @@ const Studentsplacedmain = () => {
     <div className="ABOUT-Main">
       <div className="ABOUTallLeftMenu">
 
+      
       <Link
           to="/students-placed/twenty-four"
           className={`menuButton ${
