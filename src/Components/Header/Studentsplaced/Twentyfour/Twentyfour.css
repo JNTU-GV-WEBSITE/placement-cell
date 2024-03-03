@@ -1,21 +1,42 @@
-.my-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 0 auto;
+/* Twentyfour.css */
+
+/* Target only the buttons directly inside .button-container */
+.button-container > button {
+    background-color: #fff; /* Set default background color */
+    color: #000; /* Set default text color */
+    border: 1px solid transparent; /* Add transparent border */
+    border-radius: 5px; /* Add border radius for curve */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Add color and border transition */
+    margin-right: 10px; /* Add margin to create space between buttons */
 }
 
-.my-table th, .my-table td {
-  border: 1px solid #ddd;
-  padding: 5px; /* Decreased padding for narrower columns */
-  text-align: left;
+/* Increase specificity for the last button to remove the right margin */
+.button-container > button:last-child {
+    margin-right: 0; /* Remove right margin for the last button */
 }
 
-.my-table th {
-  background-color: #daefef;
+/* Style for button when active */
+.button-container > button.active {
+    background-color: #035a5a; /* Set active background color */
+    color: #fff; /* Set active text color */
+    border-color: #035a5a; /* Set active border color */
 }
 
-.SP {
-  color: #2e0669;
-  text-align: center;
-  margin-bottom: 20px;
+/* Increase specificity for hover state */
+.button-container > button:hover {
+    background-color: #035a5a; /* Change the hover background color */
+    color: #fff; /* Change the hover text color */
+    border-color: #035a5a; /* Change the hover border color */
+}
+
+/* Set border color for default state of non-active buttons */
+.button-container > button:not(.active) {
+    border-color: #035a5a; /* Set border color for non-active buttons */
+}
+
+/* Make the text bold for Company Details and Students Placed List */
+.button-container > button {
+    font-weight: bold; /* Make text bold */
 }

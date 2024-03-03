@@ -14,7 +14,9 @@ import ImageGallery from "./Components/Header/ImageGallery/ImageGallery";
 import Recruiters from "./Components/Header/Recruiters/Recruiters";
 import PC from "./Components/Header/PC/PC";
 import Studentsplacedmain from "./Components/Header/Studentsplaced/Studentsplacedmain";
-import Twentyfour from "./Components/Header/Studentsplaced/Twentyfour/Twentyfour";
+//import StudentsPlaced from "./Components/Header/Studentsplaced/Twentyfour/Studentsplaced";
+//import Twentyfour from "./Components/Header/Studentsplaced/Twentyfour/Twentyfour";
+//import Companylist from "./Components/Header/Studentsplaced/Twentyfour/Companylist";
 import Twentytwo from "./Components/Header/Studentsplaced/Twentytwo/Twentytwo";
 import Twentyone from "./Components/Header/Studentsplaced/Twentyone/Twentyone";
 import Twenty from "./Components/Header/Studentsplaced/Twenty/Twenty";
@@ -29,6 +31,7 @@ import About from "./Components/Header/PC/About/About";
 import Activities from "./Components/Header/PC/Activities/Activities";
 import Services from "./Components/Header/PC/Services/Services";
 import Staff from "./Components/Header/About/Staff/Staff";
+import Twentyfour from "./Components/Header/Studentsplaced/Twentyfour/Twentyfour";
 
 function App() {
   return (
@@ -63,6 +66,8 @@ function App() {
         <Route path="/about-contact-us" element={<Contactus />} />
 
         <Route path="/students-placed" element={<Studentsplacedmain />}>
+          {/* <Route path="twenty-four" element={<StudentsPlaced />} /> */}
+          {/* <Route path="twenty-four" element={<Companylist />} /> */}
           <Route path="twenty-four" element={<Twentyfour />} />
           <Route path="twenty-three" element={<Twentythree />} />
           <Route path="twenty-two" element={<Twentytwo />} />
@@ -75,6 +80,8 @@ function App() {
         </Route>
         {/* <Route path="footer" element={<Footer />} />  */}
       </Routes><br /><br />
+
+      
       <Footer />
     
     </div>
