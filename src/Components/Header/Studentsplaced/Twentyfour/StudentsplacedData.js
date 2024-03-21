@@ -183,15 +183,15 @@ const studentsPlacedData = [
     },
     
     {
-        SNo: 19,
-        UniversitySerialNo: "20VV1A1233",
-        StudentName: "Malla Naga Venkata Prasanth Naidu",
-        Discipline: "IT",
-        OnOffCampus: "Off Campus",
-        NameOfTheEmployer: "Drishya AI Labs",
-        Package: "7 LPA",
-        Role: "Software Engineer"
-      },
+      SNo: 19,
+      UniversitySerialNo: "20VV1A1225",
+      StudentName: "Karedla Aditya Lakshmi Narayana",
+      Discipline: "IT",
+      OnOffCampus: "On Campus",
+      NameOfTheEmployer: "Pennant Technologies Pvt.Ltd.",
+      Package: "4 LPA",
+      Role: "Associate Software Engineer Trainee"
+    },
       {
         SNo: 20,
         UniversitySerialNo: "20VV1A0103",
@@ -479,7 +479,7 @@ const studentsPlacedData = [
     {
       SNo: 48,
       UniversitySerialNo: "20VV1A0326",
-      StudentName: "Kshatri",
+      StudentName: "Kshatri Rohit Singh",
       Discipline: "Mechanical",
       OnOffCampus: "On Campus",
       NameOfTheEmployer: "CYIENT Ltd",
@@ -488,9 +488,9 @@ const studentsPlacedData = [
     },
 
     {
-      SNo: 46,
-      UniversitySerialNo: "20VV1A0350",
-      StudentName: "PRASADU MOUNIKA",
+      SNo: 49,
+      UniversitySerialNo: "20VV1A0334",
+      StudentName: "Morla Venkata Naveen Kumar",
       Discipline: "Mechanical",
       OnOffCampus: "On Campus",
       NameOfTheEmployer: "CYIENT Ltd",
@@ -499,9 +499,9 @@ const studentsPlacedData = [
     },
 
     {
-      SNo: 46,
-      UniversitySerialNo: "20VV1A0350",
-      StudentName: "PRASADU MOUNIKA",
+      SNo: 50,
+      UniversitySerialNo: "21VV5A0373",
+      StudentName: "Peyyala Vikky",
       Discipline: "Mechanical",
       OnOffCampus: "On Campus",
       NameOfTheEmployer: "CYIENT Ltd",
@@ -510,9 +510,9 @@ const studentsPlacedData = [
     },
 
     {
-      SNo: 46,
-      UniversitySerialNo: "20VV1A0350",
-      StudentName: "PRASADU MOUNIKA",
+      SNo: 51,
+      UniversitySerialNo: "20VV1A0327",
+      StudentName: "Madda Raj Mouli",
       Discipline: "Mechanical",
       OnOffCampus: "On Campus",
       NameOfTheEmployer: "CYIENT Ltd",
@@ -520,6 +520,125 @@ const studentsPlacedData = [
       Role: ""
     },
 
+    {
+      SNo: 52,
+      UniversitySerialNo: "20VV1A0363",
+      StudentName: "Vittanala Surya Meghana",
+      Discipline: "Mechanical",
+      OnOffCampus: "On Campus",
+      NameOfTheEmployer: "CYIENT Ltd",
+      Package: "4.2 LPA",
+      Role: ""
+    },
+
+    {
+      SNo: 53,
+      UniversitySerialNo: "20VV1A0331",
+      StudentName: "Modalavalasa Siva Kumar",
+      Discipline: "Mechanical",
+      OnOffCampus: "On Campus",
+      NameOfTheEmployer: "CYIENT Ltd",
+      Package: "4.2 LPA",
+      Role: ""
+    },
+
+    {
+      SNo: 54,
+      UniversitySerialNo: "20VV5A0370",
+      StudentName: "Mandala Hemanth Kumar",
+      Discipline: "Mechanical",
+      OnOffCampus: "On Campus",
+      NameOfTheEmployer: "CYIENT Ltd",
+      Package: "4.2 LPA",
+      Role: ""
+    },
+    
+    {
+      SNo: 55,
+      UniversitySerialNo: "20VV1A0249",
+      StudentName: "Reddi Vishnu Priya",
+      Discipline: "EEE",
+      OnOffCampus: "On Campus",
+      NameOfTheEmployer: "MEDHA SERVO DRIVES",
+      Package: "4 LPA",
+      Role: ""
+    },
+
+    {
+      SNo: 56,
+      UniversitySerialNo: "20VV1A0501",
+      StudentName: "Nutakki Manasa Lakshmi",
+      Discipline: "CSE",
+      OnOffCampus: "On Campus",
+      NameOfTheEmployer: "EFFTRONICS SYSTEMS PVT.LTD",
+      Package: "5 LPA",
+      Role: ""
+    },
+
+    {
+      SNo: 57,
+      UniversitySerialNo: "20VV1A0518",
+      StudentName: "Jonnakuti Ganesh Surya",
+      Discipline: "CSE",
+      OnOffCampus: "On Campus",
+      NameOfTheEmployer: "EFFTRONICS SYSTEMS PVT.LTD",
+      Package: "5 LPA",
+      Role: ""
+    },
+
+    {
+      SNo: 58,
+      UniversitySerialNo: "20VV1A0519",
+      StudentName: "Josyula Sai Tejaswini",
+      Discipline: "CSE",
+      OnOffCampus: "On Campus",
+      NameOfTheEmployer: "EFFTRONICS SYSTEMS PVT.LTD",
+      Package: "5 LPA",
+      Role: ""
+    },
+    {
+      SNo: 59,
+      UniversitySerialNo: "20VV1A1221",
+      StudentName: "Hanumanthu Vamshi Gangadhar",
+      Discipline: "IT",
+      OnOffCampus: "OFF Campus",
+      NameOfTheEmployer: "Drishya AI Labs",
+      Package: "7 LPA",
+      Role: ""
+    },
+
+    
+    {
+      SNo: 60,
+      UniversitySerialNo: "20VV1A1225",
+      StudentName: "Karedla Aditya Lakshmi Narayana",
+      Discipline: "IT",
+      OnOffCampus: "OFF Campus",
+      NameOfTheEmployer: "Drishya AI Labs",
+      Package: "7 LPA",
+      Role: ""
+    },
+    {
+      SNo: 61,
+      UniversitySerialNo: "20VV1A1233",
+      StudentName: "Malla Naga Venkata Prasanth Naidu",
+      Discipline: "IT",
+      OnOffCampus: "OFF Campus",
+      NameOfTheEmployer: "Drishya AI Labs",
+      Package: "7 LPA",
+      Role: ""
+    },
+
+    {
+      SNo: 62,
+      UniversitySerialNo: "20VV1A1236",
+      StudentName: "Molugu Hari Kowshik",
+      Discipline: "IT",
+      OnOffCampus: "OFF Campus",
+      NameOfTheEmployer: "Drishya AI Labs",
+      Package: "7 LPA",
+      Role: ""
+    },
 
 
   ];

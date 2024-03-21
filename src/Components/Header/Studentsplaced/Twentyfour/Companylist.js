@@ -67,11 +67,11 @@ const Companylist = () => {
           ))}
           <tr>
             <td colSpan={3}><strong>Total</strong></td>
-            <td>10</td>
-            <td>7</td>
+            <td>13</td>
+            <td>11</td>
             <td>2</td>
-            <td></td>
-            <td>22</td>
+            <td>1</td>
+            <td>31</td>
             <td></td>
             <td>4</td>
             <td></td>
@@ -81,7 +81,7 @@ const Companylist = () => {
             <td></td>
             <td></td>
             <td></td>
-            <td>45</td>
+            <td>62</td>
             <td></td>
             <td></td>
           </tr>
