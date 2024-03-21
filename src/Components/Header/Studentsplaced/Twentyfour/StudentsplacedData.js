@@ -453,7 +453,75 @@ const studentsPlacedData = [
       NameOfTheEmployer: "L&T Constructions",
       Package: "6.6 LPA",
       Role: ""
-    }
+    },
+    {
+      SNo: 46,
+      UniversitySerialNo: "20VV1A0350",
+      StudentName: "Prasadu Mounika",
+      Discipline: "Mechanical",
+      OnOffCampus: "On Campus",
+      NameOfTheEmployer: "CYIENT Ltd",
+      Package: "4.2 LPA",
+      Role: ""
+    },
+
+    {
+      SNo: 47,
+      UniversitySerialNo: "20VV1A0303",
+      StudentName: "Basina Tarun",
+      Discipline: "Mechanical",
+      OnOffCampus: "On Campus",
+      NameOfTheEmployer: "CYIENT Ltd",
+      Package: "4.2 LPA",
+      Role: ""
+    },
+
+    {
+      SNo: 48,
+      UniversitySerialNo: "20VV1A0326",
+      StudentName: "Kshatri",
+      Discipline: "Mechanical",
+      OnOffCampus: "On Campus",
+      NameOfTheEmployer: "CYIENT Ltd",
+      Package: "4.2 LPA",
+      Role: ""
+    },
+
+    {
+      SNo: 46,
+      UniversitySerialNo: "20VV1A0350",
+      StudentName: "PRASADU MOUNIKA",
+      Discipline: "Mechanical",
+      OnOffCampus: "On Campus",
+      NameOfTheEmployer: "CYIENT Ltd",
+      Package: "4.2 LPA",
+      Role: ""
+    },
+
+    {
+      SNo: 46,
+      UniversitySerialNo: "20VV1A0350",
+      StudentName: "PRASADU MOUNIKA",
+      Discipline: "Mechanical",
+      OnOffCampus: "On Campus",
+      NameOfTheEmployer: "CYIENT Ltd",
+      Package: "4.2 LPA",
+      Role: ""
+    },
+
+    {
+      SNo: 46,
+      UniversitySerialNo: "20VV1A0350",
+      StudentName: "PRASADU MOUNIKA",
+      Discipline: "Mechanical",
+      OnOffCampus: "On Campus",
+      NameOfTheEmployer: "CYIENT Ltd",
+      Package: "4.2 LPA",
+      Role: ""
+    },
+
+
+
   ];
   
   export default studentsPlacedData;
