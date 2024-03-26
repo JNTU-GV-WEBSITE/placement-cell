@@ -1,0 +1,7 @@
+.chart-container {
+    width: 350px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    margin: 0 auto; /* Center the chart horizontally */
+    border: 1px solid #ccc; /* Add a border for visualization */
+  }
+  

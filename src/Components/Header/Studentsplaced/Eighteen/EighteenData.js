@@ -620,15 +620,7 @@ const studentsPlacedData = [
       campus: "Off Campus",
       company: "Invecas Pvt. Ltd",
     },
-    {
-      sno: 70,
-      name: "KRISHNAM LALITHA SONALIKA",
-      rollnumber: "14VV1A0418",
-      branch: "ECE",
-      passingyear: "2017-2018",
-      campus: "Off Campus",
-      company: "Invecas Pvt. Ltd",
-    },
+    
     {
       sno: 70,
       name: "KRISHNAM LALITHA SONALIKA",
