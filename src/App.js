@@ -32,6 +32,7 @@ import Activities from "./Components/Header/PC/Activities/Activities";
 import Services from "./Components/Header/PC/Services/Services";
 import Staff from "./Components/Header/About/Staff/Staff";
 import Twentyfour from "./Components/Header/Studentsplaced/Twentyfour/Twentyfour";
+import Chart from "./Components/Header/Chart/Chart";
 
 function App() {
   return (
@@ -63,6 +64,7 @@ function App() {
         <Route path="/our-recruiters" element={<Recruiters />} />
         <Route path="/our-image-gallery" element={<ImageGallery />} />
         {/* <Route path="/training-placement-cell" element={<PC />} /> */}
+         <Route path="/about-analysis" element={<Chart />} /> 
         <Route path="/about-contact-us" element={<Contactus />} />
 
         <Route path="/students-placed" element={<Studentsplacedmain />}>

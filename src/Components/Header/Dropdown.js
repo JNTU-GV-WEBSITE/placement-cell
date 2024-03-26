@@ -13,6 +13,7 @@ import DescriptionIcon from "@mui/icons-material/Description";
 import MenuIcon from "@mui/icons-material/Menu";
 import CollectionsIcon from '@mui/icons-material/Collections';
 import CampaignIcon from '@mui/icons-material/Campaign';
+import BarChartIcon from '@mui/icons-material/BarChart';
 import { useState } from "react";
 
 const Dropdown = () => {
@@ -230,6 +231,16 @@ const Dropdown = () => {
 
             </div>
         </div>
+
+        
+        <div className="dropdown">
+  <div className="dropbtn">
+    <Link to="/about-analysis" className="drop-icon" onClick={() => setMenuState(!menuState)}>
+      <BarChartIcon /> ANALYSIS 
+    </Link> 
+  </div>
+</div>
+
         
 
         <div className="dropdown">
