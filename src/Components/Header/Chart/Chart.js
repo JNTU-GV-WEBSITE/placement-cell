@@ -32,7 +32,7 @@ const Chart = () => {
         }
       },
       tooltip: {
-        headerFormat: '<b>{point.key}</b><br>',
+        headerFormat: '<b>{series.name}</b><br>',
         pointFormat: 'Students: {point.y}'
       },
       title: {
