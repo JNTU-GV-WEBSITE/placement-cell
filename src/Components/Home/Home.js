@@ -3,6 +3,9 @@ import "../../App.css";
 import Gallery from "../Gallery/Gallery";
 import "./Home.css";
 // import Footer from "../Footer/Footer";
+
+
+
 function Home() {
   return (
     <div>
@@ -20,6 +23,7 @@ function Home() {
         </div>
       </div>
       {/* <Footer /> */}
+      
       
     </div>
   );
