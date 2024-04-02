@@ -44,7 +44,11 @@ const Chart = () => {
         }
       },
       legend: {
-        enabled: false
+        enabled: true, // Enable legend
+        itemStyle: {
+          color: 'rgb(20, 6, 63)', // Legend text color
+          fontSize: '14px' // Legend text size
+        }
       },
       credits: {
         enabled: false // Disable HighCharts.com link
@@ -58,24 +62,31 @@ const Chart = () => {
       },
       series: [{
         name: 'CSE',
+        color: '#87CEEB', // Sky Blue
         data: [22, 35, 29, 39, 40, 50, 49, 41, 13]
       }, {
         name: 'IT',
+        color: '#FFA07A', // Light Salmon
         data: [15, 28, 33, 44, 46, 37, 57, 28, 11]
       }, {
         name: 'ECE',
+        color: '#32CD32', // Lime Green
         data: [24, 24, 54, 22, 16, 28, 48, 34, 2]
       }, {
         name: 'EEE',
+        color: '#FFD700', // Gold
         data: [10, 10, 0, 8, 6, 7, 24, 24, 1]
       }, {
         name: 'MECH',
+        color: '#4682B4', // Steel Blue
         data: [20, 4, 21, 23, 8, 5, 19, 29, 31]
       }, {
         name: 'MET',
+        color: '#8A2BE2', // Blue Violet
         data: [7, 2, 3, 5, 0, 7, 16, 6, 0]
       }, {
         name: 'CIVIL',
+        color: '#FF6347', // Tomato
         data: [0, 0, 5, 9, 2, 3, 8, 10, 4]
       }]
     });
