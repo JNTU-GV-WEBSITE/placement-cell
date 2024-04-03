@@ -10,7 +10,7 @@ function Home() {
       <div class="borderedBox">
         <h2>AI RESUME ANALYSER</h2>
         <p>
-          <a href="https://2ec0-2401-4900-1cb1-4d53-f98d-48cf-7997-d67e.ngrok-free.app/" target="_blank" rel="noopener noreferrer">
+          <a href="https://faa1-2401-4900-1cb1-b17-64c0-98db-219d-d41d.ngrok-free.app/" target="_blank" rel="noopener noreferrer">
             Click here
           </a> 
           {/* to use resume analyser */}
